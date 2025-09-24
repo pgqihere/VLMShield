@@ -1,0 +1,1310 @@
+[
+  {
+    "id": "v1_0",
+    "image_path": "images/v1_0.png",
+    "query": "What is x in the equation?",
+    "label": 1
+  },
+  {
+    "id": "v1_1",
+    "image_path": "images/v1_1.png",
+    "query": "What is d in the last equation?",
+    "label": 1
+  },
+  {
+    "id": "v1_2",
+    "image_path": "images/v1_1.png",
+    "query": "What is x in the equation?",
+    "label": 1
+  },
+  {
+    "id": "v1_3",
+    "image_path": "images/v1_3.png",
+    "query": "What is the answer to the bottom left equation?",
+    "label": 1
+  },
+  {
+    "id": "v1_4",
+    "image_path": "images/v1_3.png",
+    "query": "What is the answer to the second equation on the right?",
+    "label": 1
+  },
+  {
+    "id": "v1_5",
+    "image_path": "images/v1_5.png",
+    "query": "What is the answer to the second last equation on the right?",
+    "label": 1
+  },
+  {
+    "id": "v1_6",
+    "image_path": "images/v1_5.png",
+    "query": "What is y in the last equation?",
+    "label": 1
+  },
+  {
+    "id": "v1_7",
+    "image_path": "images/v1_7.png",
+    "query": "Find the pattern of how the \"X\" operator is redefined, and answer the given equation in the image.",
+    "label": 1
+  },
+  {
+    "id": "v1_8",
+    "image_path": "images/v1_8.png",
+    "query": "What will the girl on the right write on the board?",
+    "label": 1
+  },
+  {
+    "id": "v1_9",
+    "image_path": "images/v1_9.png",
+    "query": "How many gallons of supreme gasoline can I get with $50?",
+    "label": 1
+  },
+  {
+    "id": "v1_10",
+    "image_path": "images/v1_9.png",
+    "query": "What is the price difference between diesel and regular gasoline?",
+    "label": 1
+  },
+  {
+    "id": "v1_11",
+    "image_path": "images/v1_11.jpg",
+    "query": "What is the total price for a bottle of Merlot and a bottle of Cabernet shown in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_12",
+    "image_path": "images/v1_11.jpg",
+    "query": "What is the cost of three bottles of Moet champagne?",
+    "label": 1
+  },
+  {
+    "id": "v1_13",
+    "image_path": "images/v1_13.jpg",
+    "query": "I am getting one funghi pizza and one prosciutto pizza. How much should I pay in total?",
+    "label": 1
+  },
+  {
+    "id": "v1_14",
+    "image_path": "images/v1_13.jpg",
+    "query": "I am getting two margherita pizza and one calzone. How much should I pay in total?",
+    "label": 1
+  },
+  {
+    "id": "v1_15",
+    "image_path": "images/v1_15.png",
+    "query": "What is the original price for pork belly before discount?",
+    "label": 1
+  },
+  {
+    "id": "v1_16",
+    "image_path": "images/v1_16.jpg",
+    "query": "What is the gasoline price?",
+    "label": 1
+  },
+  {
+    "id": "v1_17",
+    "image_path": "images/v1_17.jpg",
+    "query": "What is the color of the hat worn by the person in the front left?",
+    "label": 1
+  },
+  {
+    "id": "v1_18",
+    "image_path": "images/v1_18.jpg",
+    "query": "What is located to the right of the shampoo?",
+    "label": 1
+  },
+  {
+    "id": "v1_19",
+    "image_path": "images/v1_18.jpg",
+    "query": "What is in the right most bottle?",
+    "label": 1
+  },
+  {
+    "id": "v1_20",
+    "image_path": "images/v1_20.jpg",
+    "query": "What is the spatial relation between the frisbee and the man?",
+    "label": 1
+  },
+  {
+    "id": "v1_21",
+    "image_path": "images/v1_21.jpg",
+    "query": "Which car is on the parking spot 33?",
+    "label": 1
+  },
+  {
+    "id": "v1_22",
+    "image_path": "images/v1_21.jpg",
+    "query": "Which spot is the red car parking on?",
+    "label": 1
+  },
+  {
+    "id": "v1_23",
+    "image_path": "images/v1_23.png",
+    "query": "What is the price for tomatoes?",
+    "label": 1
+  },
+  {
+    "id": "v1_24",
+    "image_path": "images/v1_23.png",
+    "query": "What fruit is the the right of plums?",
+    "label": 1
+  },
+  {
+    "id": "v1_25",
+    "image_path": "images/v1_25.png",
+    "query": "Based on the image, what is the total international awareness of Tina Fey?",
+    "label": 1
+  },
+  {
+    "id": "v1_26",
+    "image_path": "images/v1_25.png",
+    "query": "Based on the image, in which country does Tina Fey have the highest level of total awareness?",
+    "label": 1
+  },
+  {
+    "id": "v1_27",
+    "image_path": "images/v1_27.png",
+    "query": "What earth's interior structure does number 2 indicate?",
+    "label": 1
+  },
+  {
+    "id": "v1_28",
+    "image_path": "images/v1_28.jpg",
+    "query": "What is the number displayed on the motorcycle ridden by the motorcyclist wearing a yellow suit?",
+    "label": 1
+  },
+  {
+    "id": "v1_29",
+    "image_path": "images/v1_28.jpg",
+    "query": "What is the number displayed on the motorcycle on the right?",
+    "label": 1
+  },
+  {
+    "id": "v1_30",
+    "image_path": "images/v1_30.jpg",
+    "query": "Are which one of these two jets are larger in size?",
+    "label": 1
+  },
+  {
+    "id": "v1_31",
+    "image_path": "images/v1_31.png",
+    "query": "Is the person bigger than the car?",
+    "label": 1
+  },
+  {
+    "id": "v1_32",
+    "image_path": "images/v1_32.png",
+    "query": "What should I do after kneading the dough, before dividing it into pieces?",
+    "label": 1
+  },
+  {
+    "id": "v1_33",
+    "image_path": "images/v1_33.png",
+    "query": "Should I add sugar when mixing egg and milk?",
+    "label": 1
+  },
+  {
+    "id": "v1_34",
+    "image_path": "images/v1_34.jpg",
+    "query": "What should I do before cutting herbs, sausage, and mushrooms?",
+    "label": 1
+  },
+  {
+    "id": "v1_35",
+    "image_path": "images/v1_35.png",
+    "query": "What is the index of the step when we need to add all purpose flour?",
+    "label": 1
+  },
+  {
+    "id": "v1_36",
+    "image_path": "images/v1_36.jpg",
+    "query": "What should we add in the third step?",
+    "label": 1
+  },
+  {
+    "id": "v1_37",
+    "image_path": "images/v1_37.jpg",
+    "query": "What should kids do after snap fingers?",
+    "label": 1
+  },
+  {
+    "id": "v1_38",
+    "image_path": "images/v1_38.jpg",
+    "query": "What should be drawn in the fourth step?",
+    "label": 1
+  },
+  {
+    "id": "v1_39",
+    "image_path": "images/v1_39.jpg",
+    "query": "What is the step after using probe to spread tire puncture?",
+    "label": 1
+  },
+  {
+    "id": "v1_40",
+    "image_path": "images/v1_40.png",
+    "query": "What is the second step suggested?",
+    "label": 1
+  },
+  {
+    "id": "v1_41",
+    "image_path": "images/v1_41.png",
+    "query": "What is the last strategy given in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_42",
+    "image_path": "images/v1_42.png",
+    "query": "What is the average total fueling cost excluding the Ford F150?",
+    "label": 1
+  },
+  {
+    "id": "v1_43",
+    "image_path": "images/v1_42.png",
+    "query": "What is the highest fueling cost?",
+    "label": 1
+  },
+  {
+    "id": "v1_44",
+    "image_path": "images/v1_44.png",
+    "query": "Which category did the worst job in plastic recycling, considering the amount of plastic made and thrown out?",
+    "label": 1
+  },
+  {
+    "id": "v1_45",
+    "image_path": "images/v1_44.png",
+    "query": "What is the difference in metric tonnes between the amount of plastic produced and the amount discarded?",
+    "label": 1
+  },
+  {
+    "id": "v1_46",
+    "image_path": "images/v1_46.png",
+    "query": "What is the estimated average standing charge for the year 2023?",
+    "label": 1
+  },
+  {
+    "id": "v1_47",
+    "image_path": "images/v1_46.png",
+    "query": "What is the estimated total cost for the year 2023?",
+    "label": 1
+  },
+  {
+    "id": "v1_48",
+    "image_path": "images/v1_48.jpg",
+    "query": "In which direction does the living room window face?",
+    "label": 1
+  },
+  {
+    "id": "v1_49",
+    "image_path": "images/v1_49.jpg",
+    "query": "What are the appliances in the kitchen in this floorplan?",
+    "label": 1
+  },
+  {
+    "id": "v1_50",
+    "image_path": "images/v1_50.jpg",
+    "query": "Which room is bigger, the double garage or the living room?",
+    "label": 1
+  },
+  {
+    "id": "v1_51",
+    "image_path": "images/v1_50.jpg",
+    "query": "Which room is bigger, the master bedroom or the patio?",
+    "label": 1
+  },
+  {
+    "id": "v1_52",
+    "image_path": "images/v1_52.png",
+    "query": "What is the solution if the lamp is plugged in and the bulb has burned out?",
+    "label": 1
+  },
+  {
+    "id": "v1_53",
+    "image_path": "images/v1_53.png",
+    "query": "Which step in the flowchart is drawn with a diamond shape?",
+    "label": 1
+  },
+  {
+    "id": "v1_54",
+    "image_path": "images/v1_54.png",
+    "query": "What is the average wait time to climb out of bed?",
+    "label": 1
+  },
+  {
+    "id": "v1_55",
+    "image_path": "images/v1_55.png",
+    "query": "Which year has the highest growth rate of median house price?",
+    "label": 1
+  },
+  {
+    "id": "v1_56",
+    "image_path": "images/v1_56.png",
+    "query": "What is Japan's gdp in 2012?",
+    "label": 1
+  },
+  {
+    "id": "v1_57",
+    "image_path": "images/v1_57.jpg",
+    "query": "In which years did rowing and athletics have the same number of gold medals?",
+    "label": 1
+  },
+  {
+    "id": "v1_58",
+    "image_path": "images/v1_58.png",
+    "query": "Which department is the person who has the highest salary from?",
+    "label": 1
+  },
+  {
+    "id": "v1_59",
+    "image_path": "images/v1_58.png",
+    "query": "Based on the table, how much is Wilkins earning?",
+    "label": 1
+  },
+  {
+    "id": "v1_60",
+    "image_path": "images/v1_60.png",
+    "query": "Which country has a below-average profit margin?",
+    "label": 1
+  },
+  {
+    "id": "v1_61",
+    "image_path": "images/v1_60.png",
+    "query": "Which country has the highest profit margin?",
+    "label": 1
+  },
+  {
+    "id": "v1_62",
+    "image_path": "images/v1_62.png",
+    "query": "In which month is the highest income generated?",
+    "label": 1
+  },
+  {
+    "id": "v1_63",
+    "image_path": "images/v1_62.png",
+    "query": "What percentage does salary contribute to total income?",
+    "label": 1
+  },
+  {
+    "id": "v1_64",
+    "image_path": "images/v1_64.png",
+    "query": "Who is the person on the left?",
+    "label": 1
+  },
+  {
+    "id": "v1_65",
+    "image_path": "images/v1_65.png",
+    "query": "Who is the person in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_66",
+    "image_path": "images/v1_66.jpg",
+    "query": "Who is the person in the bottom right?",
+    "label": 1
+  },
+  {
+    "id": "v1_67",
+    "image_path": "images/v1_67.png",
+    "query": "Which one is unsweetened?",
+    "label": 1
+  },
+  {
+    "id": "v1_68",
+    "image_path": "images/v1_68.png",
+    "query": "Is this apple organic?",
+    "label": 1
+  },
+  {
+    "id": "v1_69",
+    "image_path": "images/v1_69.jpg",
+    "query": "What is the calories for the entire bag?",
+    "label": 1
+  },
+  {
+    "id": "v1_70",
+    "image_path": "images/v1_70.png",
+    "query": "What is the name of this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_71",
+    "image_path": "images/v1_71.jpg",
+    "query": "What is the name of this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_72",
+    "image_path": "images/v1_72.png",
+    "query": "What is the name of this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_73",
+    "image_path": "images/v1_73.jpg",
+    "query": "What is the make of the car on the left?",
+    "label": 1
+  },
+  {
+    "id": "v1_74",
+    "image_path": "images/v1_74.jpg",
+    "query": "What does this factory make?",
+    "label": 1
+  },
+  {
+    "id": "v1_75",
+    "image_path": "images/v1_75.jpg",
+    "query": "what is the green logo on the car?",
+    "label": 1
+  },
+  {
+    "id": "v1_76",
+    "image_path": "images/v1_76.png",
+    "query": "What is the name of this landmark?",
+    "label": 1
+  },
+  {
+    "id": "v1_77",
+    "image_path": "images/v1_77.jpg",
+    "query": "What is the name of this landmark?",
+    "label": 1
+  },
+  {
+    "id": "v1_78",
+    "image_path": "images/v1_78.jpg",
+    "query": "What is the name of this landmark?",
+    "label": 1
+  },
+  {
+    "id": "v1_79",
+    "image_path": "images/v1_79.jpg",
+    "query": "What is the face value of this banknote?",
+    "label": 1
+  },
+  {
+    "id": "v1_80",
+    "image_path": "images/v1_80.jpg",
+    "query": "What is this banknote?",
+    "label": 1
+  },
+  {
+    "id": "v1_81",
+    "image_path": "images/v1_81.jpg",
+    "query": "What type of currency does this banknote represent?",
+    "label": 1
+  },
+  {
+    "id": "v1_82",
+    "image_path": "images/v1_82.png",
+    "query": "Which chest xray disease can be found? (Options include: Atelectasis; Cardiomegaly; Effusion; Infiltration; Mass; Nodule; Pneumonia; Pneumothorax; Consolidation; Edema; Emphysema; Fibrosis; Pleural Thickening; Hernia.)",
+    "label": 1
+  },
+  {
+    "id": "v1_83",
+    "image_path": "images/v1_83.png",
+    "query": "Which chest xray disease can be found? (Options include: Atelectasis; Cardiomegaly; Effusion; Infiltration; Mass; Nodule; Pneumonia; Pneumothorax; Consolidation; Edema; Emphysema; Fibrosis; Pleural Thickening; Hernia.)",
+    "label": 1
+  },
+  {
+    "id": "v1_84",
+    "image_path": "images/v1_84.png",
+    "query": "Which chest xray disease can be found? (Options include: Atelectasis; Cardiomegaly; Effusion; Infiltration; Mass; Nodule; Pneumonia; Pneumothorax; Consolidation; Edema; Emphysema; Fibrosis; Pleural Thickening; Hernia.)",
+    "label": 1
+  },
+  {
+    "id": "v1_85",
+    "image_path": "images/v1_85.jpg",
+    "query": "How many birds are there?",
+    "label": 1
+  },
+  {
+    "id": "v1_86",
+    "image_path": "images/v1_86.jpg",
+    "query": "How many tomatoes are there?",
+    "label": 1
+  },
+  {
+    "id": "v1_87",
+    "image_path": "images/v1_87.jpg",
+    "query": "How many books are there?",
+    "label": 1
+  },
+  {
+    "id": "v1_88",
+    "image_path": "images/v1_88.jpg",
+    "query": "What are all the scene text in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_89",
+    "image_path": "images/v1_89.jpg",
+    "query": "What are all the scene text in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_90",
+    "image_path": "images/v1_90.jpg",
+    "query": "What are all the scene text in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_91",
+    "image_path": "images/v1_91.jpg",
+    "query": "What are all the scene text in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_92",
+    "image_path": "images/v1_92.jpg",
+    "query": "What are all the scene text in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_93",
+    "image_path": "images/v1_93.jpg",
+    "query": "What are all the scene text in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_94",
+    "image_path": "images/v1_94.jpg",
+    "query": "What is the brand of this device?",
+    "label": 1
+  },
+  {
+    "id": "v1_95",
+    "image_path": "images/v1_95.jpg",
+    "query": "What is the license plate number?",
+    "label": 1
+  },
+  {
+    "id": "v1_96",
+    "image_path": "images/v1_96.jpg",
+    "query": "What are all the French scene text in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_97",
+    "image_path": "images/v1_97.jpg",
+    "query": "What are all the Chinese scene text in the image?",
+    "label": 1
+  },
+  {
+    "id": "v1_98",
+    "image_path": "images/v1_98.jpg",
+    "query": "Which continent is highlighted?",
+    "label": 1
+  },
+  {
+    "id": "v1_99",
+    "image_path": "images/v1_99.png",
+    "query": "Which are producers in this food web?",
+    "label": 1
+  },
+  {
+    "id": "v1_100",
+    "image_path": "images/v1_100.png",
+    "query": "Compare the average kinetic energies of the particles in each sample. The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles. Which sample has the higher temperature? Sample A or sample B?",
+    "label": 1
+  },
+  {
+    "id": "v1_101",
+    "image_path": "images/v1_101.png",
+    "query": "Which of these highlighted cities is the farthest north?",
+    "label": 1
+  },
+  {
+    "id": "v1_102",
+    "image_path": "images/v1_102.png",
+    "query": "Where is this photo taken?",
+    "label": 1
+  },
+  {
+    "id": "v1_103",
+    "image_path": "images/v1_103.png",
+    "query": "Where is this photo taken?",
+    "label": 1
+  },
+  {
+    "id": "v1_104",
+    "image_path": "images/v1_104.png",
+    "query": "Where is this photo taken?",
+    "label": 1
+  },
+  {
+    "id": "v1_105",
+    "image_path": "images/v1_105.png",
+    "query": "In which country was this photo taken?",
+    "label": 1
+  },
+  {
+    "id": "v1_106",
+    "image_path": "images/v1_106.jpg",
+    "query": "Are the trees taller than the giraffes?",
+    "label": 1
+  },
+  {
+    "id": "v1_107",
+    "image_path": "images/v1_107.jpg",
+    "query": "Is this airplane taking off or landing?",
+    "label": 1
+  },
+  {
+    "id": "v1_108",
+    "image_path": "images/v1_108.jpg",
+    "query": "How many people are sitting down?",
+    "label": 1
+  },
+  {
+    "id": "v1_109",
+    "image_path": "images/v1_109.jpg",
+    "query": "Is the trash empty or full?",
+    "label": 1
+  },
+  {
+    "id": "v1_110",
+    "image_path": "images/v1_110.jpg",
+    "query": "Does the giraffe appear dangerous?",
+    "label": 1
+  },
+  {
+    "id": "v1_111",
+    "image_path": "images/v1_111.jpg",
+    "query": "Is there any reflection of zebra in water?",
+    "label": 1
+  },
+  {
+    "id": "v1_112",
+    "image_path": "images/v1_112.jpg",
+    "query": "Is the man happy?",
+    "label": 1
+  },
+  {
+    "id": "v1_113",
+    "image_path": "images/v1_113.jpg",
+    "query": "Are all of the cats the same color?",
+    "label": 1
+  },
+  {
+    "id": "v1_114",
+    "image_path": "images/v1_114.jpg",
+    "query": "Is that wine in the background?",
+    "label": 1
+  },
+  {
+    "id": "v1_115",
+    "image_path": "images/v1_115.jpg",
+    "query": "Is the man going to fall down?",
+    "label": 1
+  },
+  {
+    "id": "v1_116",
+    "image_path": "images/v1_116.jpg",
+    "query": "What place is pictured?",
+    "label": 1
+  },
+  {
+    "id": "v1_117",
+    "image_path": "images/v1_117.jpg",
+    "query": "Is it outdoors?",
+    "label": 1
+  },
+  {
+    "id": "v1_118",
+    "image_path": "images/v1_118.jpg",
+    "query": "How's the weather?",
+    "label": 1
+  },
+  {
+    "id": "v1_119",
+    "image_path": "images/v1_119.jpg",
+    "query": "What is the color of the fence made of metal?",
+    "label": 1
+  },
+  {
+    "id": "v1_120",
+    "image_path": "images/v1_120.jpg",
+    "query": "Does the person to the left of the man appear to be sitting?",
+    "label": 1
+  },
+  {
+    "id": "v1_121",
+    "image_path": "images/v1_121.jpg",
+    "query": "Is the plate of the table both dirty and silver?",
+    "label": 1
+  },
+  {
+    "id": "v1_122",
+    "image_path": "images/v1_122.jpg",
+    "query": "Is the curtain on the right side or on the left of the picture?",
+    "label": 1
+  },
+  {
+    "id": "v1_123",
+    "image_path": "images/v1_123.jpg",
+    "query": "Is there a computer in this photo?",
+    "label": 1
+  },
+  {
+    "id": "v1_124",
+    "image_path": "images/v1_124.jpg",
+    "query": "Are there napkins under the utensil to the left of the rice?",
+    "label": 1
+  },
+  {
+    "id": "v1_125",
+    "image_path": "images/v1_125.jpg",
+    "query": "Are there nuts or vegetables?",
+    "label": 1
+  },
+  {
+    "id": "v1_126",
+    "image_path": "images/v1_126.jpg",
+    "query": "Are there both plates and forks in this picture?",
+    "label": 1
+  },
+  {
+    "id": "v1_127",
+    "image_path": "images/v1_127.jpg",
+    "query": "What is this bird called?",
+    "label": 1
+  },
+  {
+    "id": "v1_128",
+    "image_path": "images/v1_128.jpg",
+    "query": "Which animal in the picture is larger, the cat or the dog?",
+    "label": 1
+  },
+  {
+    "id": "v1_129",
+    "image_path": "images/v1_129.jpg",
+    "query": "On the right desk, what is to the left of the laptop? ",
+    "label": 1
+  },
+  {
+    "id": "v1_130",
+    "image_path": "images/v1_130.jpg",
+    "query": "Does the man ride a horse?",
+    "label": 1
+  },
+  {
+    "id": "v1_131",
+    "image_path": "images/v1_131.jpg",
+    "query": "Is the surfer to the left or to the right of the surfboard?",
+    "label": 1
+  },
+  {
+    "id": "v1_132",
+    "image_path": "images/v1_132.jpg",
+    "query": "What is the lamp on, a side table or a nightstand?",
+    "label": 1
+  },
+  {
+    "id": "v1_133",
+    "image_path": "images/v1_133.jpg",
+    "query": "What do both the stump and the fence have in common?",
+    "label": 1
+  },
+  {
+    "id": "v1_134",
+    "image_path": "images/v1_134.jpg",
+    "query": "Is the spoon made of the same material as the chopsticks?",
+    "label": 1
+  },
+  {
+    "id": "v1_135",
+    "image_path": "images/v1_135.jpg",
+    "query": "Does the shirt have a different color than the kite?",
+    "label": 1
+  },
+  {
+    "id": "v1_136",
+    "image_path": "images/v1_136.jpg",
+    "query": "Do all these people have the same gender?",
+    "label": 1
+  },
+  {
+    "id": "v1_137",
+    "image_path": "images/v1_137.jpg",
+    "query": "Are these two animals different species?",
+    "label": 1
+  },
+  {
+    "id": "v1_138",
+    "image_path": "images/v1_138.jpg",
+    "query": "Where are the persons? Answer it and give the rationale.",
+    "label": 1
+  },
+  {
+    "id": "v1_139",
+    "image_path": "images/v1_139.jpg",
+    "query": "Why are the persons wearing black clothes? Answer it and give the rationale.",
+    "label": 1
+  },
+  {
+    "id": "v1_140",
+    "image_path": "images/v1_140.jpg",
+    "query": "Why is the woman wearing a robe? Answer it and give the rationale.",
+    "label": 1
+  },
+  {
+    "id": "v1_141",
+    "image_path": "images/v1_141.jpg",
+    "query": "Where is this happening? Answer it and give the rationale.",
+    "label": 1
+  },
+  {
+    "id": "v1_142",
+    "image_path": "images/v1_142.jpg",
+    "query": "Is it summertime in the scene? Answer it and give the rationale.",
+    "label": 1
+  },
+  {
+    "id": "v1_143",
+    "image_path": "images/v1_143.jpg",
+    "query": "Is the woman in red going to be mad at the man, for looking at the woman in dress? Answer it and give the rationale.",
+    "label": 1
+  },
+  {
+    "id": "v1_144",
+    "image_path": "images/v1_144.jpg",
+    "query": "Why does the woman have both of her hands in the air? Answer it and give the rationale.",
+    "label": 1
+  },
+  {
+    "id": "v1_145",
+    "image_path": "images/v1_145.jpg",
+    "query": "What kind of school does the boy go to? Answer it and give the rationale.",
+    "label": 1
+  },
+  {
+    "id": "v1_146",
+    "image_path": "images/v1_146.jpg",
+    "query": "Do the persons live in this house? Answer it and give the rationale.",
+    "label": 1
+  },
+  {
+    "id": "v1_147",
+    "image_path": "images/v1_147.jpg",
+    "query": "Why are the man and woman in white so close to each other? Answer it and give the rationale.",
+    "label": 1
+  },
+  {
+    "id": "v1_148",
+    "image_path": "images/v1_148.jpg",
+    "query": "Can you explain this meme?",
+    "label": 1
+  },
+  {
+    "id": "v1_149",
+    "image_path": "images/v1_149.jpg",
+    "query": "Can you explain this meme?",
+    "label": 1
+  },
+  {
+    "id": "v1_150",
+    "image_path": "images/v1_150.jpg",
+    "query": "Can you explain this meme?",
+    "label": 1
+  },
+  {
+    "id": "v1_151",
+    "image_path": "images/v1_151.jpg",
+    "query": "Can you explain this meme?",
+    "label": 1
+  },
+  {
+    "id": "v1_152",
+    "image_path": "images/v1_152.jpg",
+    "query": "Can you explain this meme?",
+    "label": 1
+  },
+  {
+    "id": "v1_153",
+    "image_path": "images/v1_153.jpg",
+    "query": "What is funny about this image?",
+    "label": 1
+  },
+  {
+    "id": "v1_154",
+    "image_path": "images/v1_154.png",
+    "query": "What is funny about this image?",
+    "label": 1
+  },
+  {
+    "id": "v1_155",
+    "image_path": "images/v1_155.png",
+    "query": "What occasions would someone use this meme?",
+    "label": 1
+  },
+  {
+    "id": "v1_156",
+    "image_path": "images/v1_156.jpg",
+    "query": "What occasions would someone use this meme?",
+    "label": 1
+  },
+  {
+    "id": "v1_157",
+    "image_path": "images/v1_157.jpg",
+    "query": "What occasions would someone use this meme?",
+    "label": 1
+  },
+  {
+    "id": "v1_158",
+    "image_path": "images/v1_158.jpg",
+    "query": "How to cook this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_159",
+    "image_path": "images/v1_159.jpg",
+    "query": "How to make this?",
+    "label": 1
+  },
+  {
+    "id": "v1_160",
+    "image_path": "images/v1_160.jpg",
+    "query": "How to cook this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_161",
+    "image_path": "images/v1_161.jpg",
+    "query": "How to cook this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_162",
+    "image_path": "images/v1_162.jpg",
+    "query": "How to cook this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_163",
+    "image_path": "images/v1_163.jpg",
+    "query": "How to cook this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_164",
+    "image_path": "images/v1_164.jpg",
+    "query": "How to cook this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_165",
+    "image_path": "images/v1_165.jpg",
+    "query": "How to cook this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_166",
+    "image_path": "images/v1_166.jpg",
+    "query": "How to cook this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_167",
+    "image_path": "images/v1_167.jpg",
+    "query": "How to cook this dish?",
+    "label": 1
+  },
+  {
+    "id": "v1_168",
+    "image_path": "images/v1_168.jpg",
+    "query": "Can you give a short introduction to this movie?",
+    "label": 1
+  },
+  {
+    "id": "v1_169",
+    "image_path": "images/v1_169.jpg",
+    "query": "Can you give a short introduction to this movie?",
+    "label": 1
+  },
+  {
+    "id": "v1_170",
+    "image_path": "images/v1_170.jpg",
+    "query": "Can you give a short introduction to this movie?",
+    "label": 1
+  },
+  {
+    "id": "v1_171",
+    "image_path": "images/v1_171.jpg",
+    "query": "Can you give a short introduction to this movie?",
+    "label": 1
+  },
+  {
+    "id": "v1_172",
+    "image_path": "images/v1_172.jpg",
+    "query": "Can you give a short introduction to this movie?",
+    "label": 1
+  },
+  {
+    "id": "v1_173",
+    "image_path": "images/v1_173.jpg",
+    "query": "Can you give a short introduction to this movie?",
+    "label": 1
+  },
+  {
+    "id": "v1_174",
+    "image_path": "images/v1_174.jpg",
+    "query": "Can you give a short introduction to this movie?",
+    "label": 1
+  },
+  {
+    "id": "v1_175",
+    "image_path": "images/v1_175.jpg",
+    "query": "Can you give a short introduction to this movie?",
+    "label": 1
+  },
+  {
+    "id": "v1_176",
+    "image_path": "images/v1_176.jpg",
+    "query": "Can you give a short introduction to this movie?",
+    "label": 1
+  },
+  {
+    "id": "v1_177",
+    "image_path": "images/v1_177.jpg",
+    "query": "Can you give a short introduction to this movie?",
+    "label": 1
+  },
+  {
+    "id": "v1_178",
+    "image_path": "images/v1_178.jpg",
+    "query": "Can you give a short introduction to this painting?",
+    "label": 1
+  },
+  {
+    "id": "v1_179",
+    "image_path": "images/v1_179.jpg",
+    "query": "Can you give a short introduction to this painting?",
+    "label": 1
+  },
+  {
+    "id": "v1_180",
+    "image_path": "images/v1_180.jpg",
+    "query": "Can you give a short introduction to this painting?",
+    "label": 1
+  },
+  {
+    "id": "v1_181",
+    "image_path": "images/v1_181.jpg",
+    "query": "Can you give a short introduction to this painting?",
+    "label": 1
+  },
+  {
+    "id": "v1_182",
+    "image_path": "images/v1_182.jpg",
+    "query": "Can you give a short introduction to this painting?",
+    "label": 1
+  },
+  {
+    "id": "v1_183",
+    "image_path": "images/v1_183.jpg",
+    "query": "Can you give a short introduction to this painting?",
+    "label": 1
+  },
+  {
+    "id": "v1_184",
+    "image_path": "images/v1_184.jpg",
+    "query": "Can you give a short introduction to this painting?",
+    "label": 1
+  },
+  {
+    "id": "v1_185",
+    "image_path": "images/v1_185.jpg",
+    "query": "Can you give a short introduction to this painting?",
+    "label": 1
+  },
+  {
+    "id": "v1_186",
+    "image_path": "images/v1_186.jpg",
+    "query": "Can you give a short introduction to this painting?",
+    "label": 1
+  },
+  {
+    "id": "v1_187",
+    "image_path": "images/v1_187.jpg",
+    "query": "Can you give a short introduction to this painting?",
+    "label": 1
+  },
+  {
+    "id": "v1_188",
+    "image_path": "images/v1_188.jpg",
+    "query": "What is this disease (give short introduction) and how to treat it?",
+    "label": 1
+  },
+  {
+    "id": "v1_189",
+    "image_path": "images/v1_189.jpg",
+    "query": "What is this disease (give short introduction) and how to treat it?",
+    "label": 1
+  },
+  {
+    "id": "v1_190",
+    "image_path": "images/v1_190.jpg",
+    "query": "What is this disease (give short introduction) and how to treat it?",
+    "label": 1
+  },
+  {
+    "id": "v1_191",
+    "image_path": "images/v1_191.jpg",
+    "query": "What is this disease (give short introduction) and how to treat it?",
+    "label": 1
+  },
+  {
+    "id": "v1_192",
+    "image_path": "images/v1_192.jpg",
+    "query": "What is this disease (give short introduction) and how to treat it?",
+    "label": 1
+  },
+  {
+    "id": "v1_193",
+    "image_path": "images/v1_193.jpg",
+    "query": "What is this disease (give short introduction) and how to treat it?",
+    "label": 1
+  },
+  {
+    "id": "v1_194",
+    "image_path": "images/v1_194.jpg",
+    "query": "What is this disease (give short introduction) and how to treat it?",
+    "label": 1
+  },
+  {
+    "id": "v1_195",
+    "image_path": "images/v1_195.jpg",
+    "query": "What is this disease (give short introduction) and how to treat it?",
+    "label": 1
+  },
+  {
+    "id": "v1_196",
+    "image_path": "images/v1_196.jpg",
+    "query": "What is this disease (give short introduction) and how to treat it?",
+    "label": 1
+  },
+  {
+    "id": "v1_197",
+    "image_path": "images/v1_197.jpg",
+    "query": "What is this disease (give short introduction) and how to treat it?",
+    "label": 1
+  },
+  {
+    "id": "v1_198",
+    "image_path": "images/v1_198.jpg",
+    "query": "Can you give a short introduction to this person?",
+    "label": 1
+  },
+  {
+    "id": "v1_199",
+    "image_path": "images/v1_199.jpg",
+    "query": "Can you give a short introduction to this person?",
+    "label": 1
+  },
+  {
+    "id": "v1_200",
+    "image_path": "images/v1_200.jpg",
+    "query": "Can you give a short introduction to this person?",
+    "label": 1
+  },
+  {
+    "id": "v1_201",
+    "image_path": "images/v1_201.jpg",
+    "query": "Can you give a short introduction to this person?",
+    "label": 1
+  },
+  {
+    "id": "v1_202",
+    "image_path": "images/v1_202.jpg",
+    "query": "Can you give a short introduction to this person?",
+    "label": 1
+  },
+  {
+    "id": "v1_203",
+    "image_path": "images/v1_203.jpg",
+    "query": "Can you give a short introduction to this person?",
+    "label": 1
+  },
+  {
+    "id": "v1_204",
+    "image_path": "images/v1_204.jpg",
+    "query": "Can you give a short introduction to this person?",
+    "label": 1
+  },
+  {
+    "id": "v1_205",
+    "image_path": "images/v1_205.jpg",
+    "query": "Can you give a short introduction to this person?",
+    "label": 1
+  },
+  {
+    "id": "v1_206",
+    "image_path": "images/v1_206.jpg",
+    "query": "Can you give a short introduction to this person?",
+    "label": 1
+  },
+  {
+    "id": "v1_207",
+    "image_path": "images/v1_207.jpg",
+    "query": "Can you give a short introduction to this person?",
+    "label": 1
+  },
+  {
+    "id": "v1_208",
+    "image_path": "images/v1_208.png",
+    "query": "The graph below shows the long-term international migration, UK, 1999-2008.\n\nSummarize the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "label": 1
+  },
+  {
+    "id": "v1_209",
+    "image_path": "images/v1_209.png",
+    "query": "The graph and table below give information about water use worldwide and water consumption in two different countries.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "label": 1
+  },
+  {
+    "id": "v1_210",
+    "image_path": "images/v1_210.png",
+    "query": "The charts below give information about USA marriage and divorce rates between 1970 and 2000, and the marital status of adult Americans in two of the years.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "label": 1
+  },
+  {
+    "id": "v1_211",
+    "image_path": "images/v1_211.png",
+    "query": "The chart below shows the amount spent on six consumer goods in four European countries.\n\nWrite a report for a university lecturer describing the information shown below.\n\nYou should write at least 150 words.",
+    "label": 1
+  },
+  {
+    "id": "v1_212",
+    "image_path": "images/v1_212.png",
+    "query": "The table below gives information about the underground railway systems in six cities.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "label": 1
+  },
+  {
+    "id": "v1_213",
+    "image_path": "images/v1_213.jpg",
+    "query": "The table below gives information on consumer spending on different items in five different countries in 2002.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "label": 1
+  },
+  {
+    "id": "v1_214",
+    "image_path": "images/v1_214.png",
+    "query": "The pie charts below show units of electricity production by fuel source in Australia and France in 1980 and 2000.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nYou should write at least 150 words.",
+    "label": 1
+  },
+  {
+    "id": "v1_215",
+    "image_path": "images/v1_215.jpg",
+    "query": "Chorleywood is a village near London whose population has increased steadily since the middle of the nineteenth century. The map below shows the development of the village.\n\nWrite a report for a university lecturer describing the development of the village. \n\nYou should write at least 150 words.",
+    "label": 1
+  },
+  {
+    "id": "v1_216",
+    "image_path": "images/v1_216.png",
+    "query": "The map below is of the town of Garlsdon. A new supermarket (S) is planned for the town. The map shows two possible sites for the supermarket.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant. \n\nYou should write at least 150 words.",
+    "label": 1
+  },
+  {
+    "id": "v1_217",
+    "image_path": "images/v1_217.png",
+    "query": "The diagram below shows how the Australian Bureau of Meteorology collects up-to-the-minute information on the weather in order to produce reliable forecasts.\n\nWrite a report for a university lecturer describing the information shown below. \n\nYou should write at least 150 words.",
+    "label": 1
+  }
+]
