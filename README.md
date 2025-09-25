@@ -11,7 +11,7 @@ A vision-language model shield for detecting and filtering harmful content in mu
 ## Setup Instructions
 
 ### 1. Download Visualization Dataset
-First, download the visualization embedding dataset from Google Drive: https://drive.google.com/drive/folders/1xn_sdBm3rzrv3lgV9Mr87Y2ZLmWAR169?usp=drive_link
+First, download the visualization embedding dataset from Google Drive: https://drive.google.com/drive/folders/1xn_sdBm3rzrv3lgV9Mr87Y2ZLmWAR169?usp=sharing
 
 **Note**: Due to the large scale of the original datasets, the embedding conversion process requires substantial processing time, even though the conversion itself is computationally efficient. To facilitate quick reproduction of visualization results, we provide pre-processed embedding data in JSON format. This eliminates the lengthy data processing pipeline and allows you to directly proceed with visualization analysis.
 
