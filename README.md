@@ -5,9 +5,7 @@ A vision-language model shield for detecting and filtering harmful content in mu
 ## Table of Contents
 - [Setup Instructions](#setup-instructions)
 - [Project Structure](#project-structure)
-- [Quick Start](#quick-start)
 - [Experiments](#experiments)
-- [Results](#results)
 - [Training](#training)
 
 ## Setup Instructions
@@ -127,101 +125,6 @@ Each dataset generates a separate JSON file with detailed metrics. For example, 
 }
 ```
 The `summary.json` file aggregates all experimental results and provides overall statistics:
-
-
-
-```bash
-cd VLMShield_script
-python VLMShield.py --input your_dataset.json
-```
-This script will generate results corresponding to:
-
-
-
-
-
-This batch script will automatically process all datasets and generate the experimental results corresponding to:
-
-Table 3: Performance evaluation on AdvBench and VLSafe datasets
-Table 4: Evaluation results on MM-Vet dataset
-
-The script performs the following operations:
-
-Process all datasets in the datasets/ folder
-Save individual results for each dataset in Results/experiment_results/
-Generate a summary.json file with aggregated statistics
-Results for each dataset
-Total processing time
-Average processing time per sample
-
-Batch Experiments
-To run all experiments at once:
-```bash
-cd VLMShield_script
-bash main.sh
-```
-
-This script will:
-- Process all datasets in the `datasets/` folder
-- Save individual results for each dataset in `Results/experiment_results/`
-- Generate a `summary.json` file with overall statistics
-
-### Input Data Format
-The VLMShield model expects JSON files with the following structure:
-```json
-[
-  {
-    "text_query": "example query text",
-    "image_path": "path/to/image.jpg", 
-    "label": 0
-  }
-]
-```
-Where:
-- text_query: The input text prompt
-- image_path: Path to the associated image file
-- label: Ground truth label (0 for safe, 1 for unsafe)
-
-### Output Metrics
-The framework outputs two primary metrics:
-- ASR (Attack Success Rate): For adversarial datasets, measuring the proportion of successful attacks
-- Accuracy: Overall classification accuracy across all samples
-
-## Results
-### Results Structure
-Experimental results are organized as follows:
-```markdown
-Results/experiment_results/
-├── dataset1_results.json
-├── dataset2_results.json
-├── ...
-└── summary.json
-```
-Each dataset result file contains detailed metrics, while summary.json provides aggregated statistics across all experiments.
-
-### Individual Dataset Results
-Each dataset result follows this JSON format:
-```json
-{
-  "dataset_name": "VLSafe",
-  "metrics": {
-    "asr": {
-      "asr": 0.016216216216216217,
-      "attack_successes": 18,
-      "total_unsafe_samples": 1110,
-      "total_samples": 1110,
-      "dataset_type": "all_unsafe"
-    },
-    "accuracy": {
-      "accuracy": 0.9837837837837838,
-      "correct_predictions": 1092,
-      "total_samples": 1110
-    }
-  }
-}
-```
-### Summary Results
-The `summary.json` file contains aggregated statistics:
 ```json
 {
   "summary": {
@@ -255,6 +158,35 @@ The `summary.json` file contains aggregated statistics:
   }
 }
 ```
+
+### Running Individual Experiments
+If you want to evaluate a specific dataset instead of running all experiments, use the `VLMShield.py` script directly. For example, to run only the VLSafe dataset:
+```bash
+cd VLMShield_script
+python VLMShield.py --input datasets/Direct_VLSafe/vlsafe_data.json
+```
+#### Custom Dataset Evaluation
+To evaluate your own custom dataset, prepare your data in the following JSON format:
+```json
+[
+  {
+    "text_query": "example query text",
+    "image_path": "path/to/image.jpg", 
+    "label": 0
+  }
+]
+```
+Where:
+- text_query: The input text prompt
+- image_path: Path to the associated image file
+- label: Ground truth label (0 for safe, 1 for unsafe)
+
+Then run:
+```bash
+cd VLMShield_script
+python VLMShield.py --input path/to/your/custom_dataset.json
+```
+
 
 ## Training
 To train a new VLMShield model:
