@@ -65,7 +65,7 @@ conda activate vlmshield
 
 ## Experiments
 ### Running Visualization
-To generate feature visualizations corresponding to the paper figures:=
+To generate feature visualizations corresponding to the paper figures:
 ```bash
 cd MAFE_feature_visual
 python visual.py
