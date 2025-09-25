@@ -159,34 +159,6 @@ The `summary.json` file aggregates all experimental results and provides overall
 }
 ```
 
-### Running Individual Experiments
-If you want to evaluate a specific dataset instead of running all experiments, use the `VLMShield.py` script directly. For example, to run only the VLSafe dataset:
-```bash
-cd VLMShield_script
-python VLMShield.py --input datasets/Direct_VLSafe/vlsafe_data.json
-```
-#### Custom Dataset Evaluation
-To evaluate your own custom dataset, prepare your data in the following JSON format:
-```json
-[
-  {
-    "text_query": "example query text",
-    "image_path": "path/to/image.jpg", 
-    "label": 0
-  }
-]
-```
-Where:
-- text_query: The input text prompt
-- image_path: Path to the associated image file
-- label: Ground truth label (0 for safe, 1 for unsafe)
-
-Then run:
-```bash
-cd VLMShield_script
-python VLMShield.py --input path/to/your/custom_dataset.json
-```
-
 
 ## Training
 To train a new VLMShield model:
