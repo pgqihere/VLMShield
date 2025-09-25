@@ -128,7 +128,7 @@ The `summary.json` file aggregates all experimental results and provides overall
 ```json
 {
   "summary": {
-    "timestamp": "2025-09-25T17:52:11+08:00",
+    "timestamp": "2025-08-25T17:52:11+08:00",
     "total_datasets": 10,
     "successful_datasets": 10,
     "failed_datasets": 0,
