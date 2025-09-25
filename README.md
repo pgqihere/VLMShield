@@ -65,14 +65,94 @@ conda activate vlmshield
     └── experiment_results/       # Experimental results
 ```
 
-## Quick Start
+## Experiments
+### Running Visualization
+To generate feature visualizations corresponding to the paper figures:=
+```bash
+cd MAFE_feature_visual
+python visual.py
+```
+The visualization results will be saved in `Results/visual_results/`:
+- tsne_visualization.pdf - t-SNE visualization of embeddings (corresponding to `Figure 3` in the paper)
+- pca_density_visualization.pdf - PCA density visualization of embeddings (corresponding to `Figure 5` in the paper)
+
+These visualizations demonstrate the effectiveness of our embedding-based approach in distinguishing between safe and unsafe multimodal content.
 
 ### Running Experiments
-To run a single experiment, use the VLMShield.py script with a JSON file containing text queries, image paths, and labels:
+To reproduce the key experimental results from our paper, run the batch evaluation script:
+```bash
+cd VLMShield_script
+bash main.sh
+```
+This batch script will automatically process all datasets and generate the experimental results corresponding to:
+- `Table 3`: Performance evaluation on AdvBench and VLSafe datasets
+- `Table 4`: Evaluation results on MM-Vet dataset
+
+The script performs the following operations:
+- Process all datasets in the `datasets/ folder`
+- Save individual results for each dataset in `Results/experiment_results/`
+- Generate a `summary.json` file with aggregated statistics
+    - Results for each dataset
+    - Total processing time
+    - Average processing time per sample
+
+#### Understanding the Results
+After running the batch script, experimental results are organized as follows:
+```markdown
+Results/experiment_results/
+├── AdvBench_results.json
+├── VLSafe_results.json
+├── MM-Vet_results.json
+├── ...
+└── summary.json
+```
+Each dataset generates a separate JSON file with detailed metrics. For example, `VLSafe_results.json` contains:
+```json
+{
+  "dataset_name": "VLSafe",
+  "metrics": {
+    "asr": {
+      "asr": 0.016216216216216217,
+      "attack_successes": 18,
+      "total_unsafe_samples": 1110,
+      "total_samples": 1110,
+      "dataset_type": "all_unsafe"
+    },
+    "accuracy": {
+      "accuracy": 0.9837837837837838,
+      "correct_predictions": 1092,
+      "total_samples": 1110
+    }
+  }
+}
+```
+The `summary.json` file aggregates all experimental results and provides overall statistics:
+
+
+
 ```bash
 cd VLMShield_script
 python VLMShield.py --input your_dataset.json
 ```
+This script will generate results corresponding to:
+
+
+
+
+
+This batch script will automatically process all datasets and generate the experimental results corresponding to:
+
+Table 3: Performance evaluation on AdvBench and VLSafe datasets
+Table 4: Evaluation results on MM-Vet dataset
+
+The script performs the following operations:
+
+Process all datasets in the datasets/ folder
+Save individual results for each dataset in Results/experiment_results/
+Generate a summary.json file with aggregated statistics
+Results for each dataset
+Total processing time
+Average processing time per sample
 
 Batch Experiments
 To run all experiments at once:
@@ -86,17 +166,6 @@ This script will:
 - Save individual results for each dataset in `Results/experiment_results/`
 - Generate a `summary.json` file with overall statistics
 
-### Running Visualization
-To reproduce the feature embedding visualization:
-```bash
-cd MAFE_feature_visual
-python visual.py
-```
-The visualization results will be saved in `Results/visual_results/`:
-- tsne_visualization.pdf - t-SNE visualization of embeddings
-- pca_density_visualization.pdf - PCA density visualization of embeddings
-
-## Experiments
 ### Input Data Format
 The VLMShield model expects JSON files with the following structure:
 ```json
