@@ -7,7 +7,7 @@
 # Configuration
 # =========================
 OUTPUT_DIR="../Results/experiment_results"  
-CLIP_PATH="/data-c/qipeigui/clip-vit-large-patch14"
+CLIP_PATH="model/clip-vit-large-patch14"
 CLASSIFIER_PATH="model/vlmshield_classifier.pt"
 IMAGE_BASE_DIR=""
 BATCH_SIZE=32

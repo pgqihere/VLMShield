@@ -146,10 +146,10 @@ def plot_multiple_visualizations(benign_embeddings, adv1_embeddings, adv2_embedd
     print(f"Total explained variance: {sum(explained_variance_ratio):.4f}")
 
 if __name__ == "__main__":
-    benign_path = "embedding_datasets/parquet_multimodal_dataset_progressive_eos_20000.json"
-    adv1_path = "embedding_datasets/combined_dataset.json"
-    adv2_path = "embedding_datasets/text_based_multimodal_dataset_progressive_eos.json"
-    adv3_path = "embedding_datasets/image_based_multimodal_dataset_progressive_eos.json"  
+    benign_path = "embedding_datasets/GPT4V_dataset_progressive_eos_concat.json"
+    adv1_path = "embedding_datasets/mmsafety_dataset_progressive_eos_concat.json.json"
+    adv2_path = "embedding_datasets/text_dataset_progressive_eos_concat.json"
+    adv3_path = "embedding_datasets/image_dataset_progressive_eos_concat.json"  
     
     try:
         benign_embeddings, adv1_embeddings, adv2_embeddings, adv3_embeddings = load_embeddings_from_json(
