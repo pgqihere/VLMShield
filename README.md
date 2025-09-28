@@ -164,5 +164,5 @@ The `summary.json` file aggregates all experimental results and provides overall
 To train a new VLMShield model:
 ```bash
 cd VLMShield_script
-python new_train.py --config your_config.json
+python new_train.py
 ```
