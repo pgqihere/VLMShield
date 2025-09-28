@@ -134,7 +134,6 @@ The `summary.json` file aggregates all experimental results and provides overall
     "failed_datasets": 0,
     "total_samples_processed": 34772,
     "total_processing_time_seconds": 1182.234544754028,
-    "total_wall_time_seconds": 1675.421589480,
     "average_time_per_sample_seconds": 0.033999,
     "datasets": [
       {
