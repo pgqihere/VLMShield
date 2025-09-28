@@ -336,10 +336,10 @@ def parse_arguments():
     # Model related parameters
     parser.add_argument('--clip-path', 
                        default='model/clip-vit-large-patch14',
-                       help='CLIP model path (default: /data-c/qipeigui/clip-vit-large-patch14)')
+                       help='CLIP model path')
     parser.add_argument('--classifier-path', 
                        default='model/vlmshield_classifier.pt',
-                       help='Classifier model path (default: /data/qipeigui/NFSW/VLMsafe/tools/model/test_all_loss.pt)')
+                       help='Classifier model path')
     
     # Optional parameters
     parser.add_argument('--image-base-dir', 
