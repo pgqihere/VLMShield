@@ -147,7 +147,7 @@ def plot_multiple_visualizations(benign_embeddings, adv1_embeddings, adv2_embedd
 
 if __name__ == "__main__":
     benign_path = "embedding_datasets/GPT4V_dataset_progressive_eos_concat.json"
-    adv1_path = "embedding_datasets/mmsafety_dataset_progressive_eos_concat.json.json"
+    adv1_path = "embedding_datasets/mmsafety_dataset_progressive_eos_concat.json"
     adv2_path = "embedding_datasets/text_dataset_progressive_eos_concat.json"
     adv3_path = "embedding_datasets/image_dataset_progressive_eos_concat.json"  
     
