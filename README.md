@@ -13,13 +13,6 @@ A vision-language model shield for detecting and filtering harmful content in mu
 ### 1. Download Visualization Dataset
 First, download the visualization embedding dataset from Google Drive: https://drive.google.com/drive/folders/1xn_sdBm3rzrv3lgV9Mr87Y2ZLmWAR169?usp=sharing
 
-**Note**: Due to the large scale of the original datasets, the embedding conversion process requires substantial processing time, even though the conversion itself is computationally efficient. To facilitate quick reproduction of visualization results, we provide pre-processed embedding data in JSON format. This eliminates the lengthy data processing pipeline and allows you to directly proceed with visualization analysis.
-
-The pre-processed files contain:
-- Pre-computed MAFE embeddings for all dataset samples
-- Ready-to-use data structures for immediate visualization
-- Optimized format for faster loading and processing
-
 ### 2. Download CLIP Model
 Download the CLIP-ViT-Large-Patch14 model from Hugging Face:
 - Model URL: https://huggingface.co/openai/clip-vit-large-patch14
@@ -128,7 +121,7 @@ The `summary.json` file aggregates all experimental results and provides overall
 ```json
 {
   "summary": {
-    "timestamp": "2025-08-25T17:52:11+08:00",
+    "timestamp": "",
     "total_datasets": 10,
     "successful_datasets": 10,
     "failed_datasets": 0,
